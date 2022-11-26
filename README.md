@@ -1,4 +1,5 @@
 # Rat in a Maze Problem
+[![](https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg?colorB=ff0035)](https://github.com/ThejusGSajan/Rat_in_a_Maze/blob/main/LICENCE)
 
 ## Requirements
 This code is written in C which means any C compiler is required to compile the code.
