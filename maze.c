@@ -20,7 +20,7 @@ void display(int** Soln, int n, char* string)
     printf("\n");
 
     /*prints the solution in UDLR
-    where   u - Up
+    where   U - Up
             L - Left
             D - Down
             R - Right*/
@@ -118,6 +118,6 @@ int main()
     if (findRoute(0, 0, Maze, Soln, n, string))
         display(Soln, n, string);
     else
-        printf("No solution\n");
+        printf("Path does not exist, solution not found\n");
     return 0;
 }
