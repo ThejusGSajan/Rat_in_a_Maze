@@ -25,6 +25,8 @@ void display(int** Soln, int n, char* string)
             D - Down
             R - Right*/
     printf("---Maze Solution---\n");
+    
+    //printing the string in reverse since it gets its value from a recursive function
     for(i = (n * n - 1); i >= 0; i--)
     {
         //if char is an empty character, skip it
